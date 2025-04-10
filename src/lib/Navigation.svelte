@@ -50,8 +50,8 @@
     flex-direction: column;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: #f9f9f9;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #313131;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
     position: sticky;
     top: 0;
     z-index: 100;
@@ -67,7 +67,7 @@
   
   .nav-links a {
     text-decoration: none;
-    color: #333;
+    color: #e0e0e0;
     font-weight: 500;
     transition: color 0.3s ease;
   }
