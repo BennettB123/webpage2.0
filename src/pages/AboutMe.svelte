@@ -29,7 +29,7 @@
     max-width: 800px;
     margin: 0 auto;
     text-align: left;
-    font-size: 1.2rem; /* Increased base font size */
+    font-size: 1.2rem;
   }
   
   h1 {
@@ -40,7 +40,7 @@
   h2 {
     color: #ff3e00;
     margin-top: 1.5em;
-    font-size: 2rem; /* Increased heading size */
+    font-size: 2rem;
   }
   
   .bio {
@@ -70,7 +70,7 @@
   }
   
   p {
-    line-height: 1.6; /* Improved line spacing for better readability */
+    line-height: 1.6;
   }
   
   @media (max-width: 768px) {

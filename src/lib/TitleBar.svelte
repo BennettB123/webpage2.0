@@ -3,14 +3,17 @@
 </script>
 
 <div class="site-title">
-  <a href="/" on:click={(e) => {
-    e.preventDefault();
-    // Update browser history without refreshing
-    window.history.pushState({}, '', '/');
-    
-    // Dispatch a custom event to notify App.svelte of navigation
-    window.dispatchEvent(new CustomEvent('routechange'));
-  }}>bennettcodes.com</a>
+  <a
+    href="/"
+    on:click={(e) => {
+      e.preventDefault();
+      // Update browser history without refreshing
+      window.history.pushState({}, "", "/");
+
+      // Dispatch a custom event to notify App.svelte of navigation
+      window.dispatchEvent(new CustomEvent("routechange"));
+    }}>bennettcodes.com</a
+  >
 </div>
 
 <style>
@@ -18,7 +21,7 @@
     margin-bottom: 0.75rem;
     text-align: center;
   }
-  
+
   .site-title a {
     font-size: 1.75rem;
     font-weight: bold;
