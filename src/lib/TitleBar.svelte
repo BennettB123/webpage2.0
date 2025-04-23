@@ -11,7 +11,7 @@
 
       // Dispatch a custom event to notify App.svelte of navigation
       window.dispatchEvent(new CustomEvent("routechange"));
-    }}>bennettcodes.com</a
+    }}>BennettCodes.com</a
   >
 </div>
 

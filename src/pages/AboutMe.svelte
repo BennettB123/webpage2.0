@@ -12,7 +12,7 @@
     <div class="bio-text">
       <h2>Hello, I'm Bennett Ballentine</h2>
       <p>
-        I'm a passionate software developer primarily focusing on the backend.
+        I'm a passionate software developer primarily focusing on backend.
         This is my personal webpage to showcase my programming journey and the projects I've worked on throughout the years.
       </p>
     </div>
