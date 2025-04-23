@@ -1,13 +1,13 @@
 <script context="module" lang="ts">
+  import stickyNoteBoardImg from "../assets/projectImgs/StickyNoteBoard.jpg";
+  import passwordVaultImg from "../assets/projectImgs/Password-vault.png";
   import MandelbrotSetImg1 from "../assets/projectImgs/Mandelbrot-set1.jpg";
   import MandelbrotSetImg2 from "../assets/projectImgs/Mandelbrot-set2.png";
-  import passwordVaultImg from "../assets/projectImgs/Password-vault.png";
+  import universeExplorerGif from "../assets/projectImgs/universeExplorer.gif";
+  import stockMarketReturnsImg from "../assets/projectImgs/stockMarketReturns.png";
   import pythonMazeImg from "../assets/projectImgs/pythonMaze.png";
   import slidePuzzleImg1 from "../assets/projectImgs/slidePuzzle1.png";
   import slidePuzzleImg2 from "../assets/projectImgs/slidePuzzle2.png";
-  import stickyNoteBoardImg from "../assets/projectImgs/StickyNoteBoard.jpg";
-  import stockMarketReturnsImg from "../assets/projectImgs/stockMarketReturns.png";
-  import universeExplorerGif from "../assets/projectImgs/universeExplorer.gif";
 
   type Project = {
     name: string;
