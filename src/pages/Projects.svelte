@@ -26,7 +26,7 @@
           <h2>{project.name}</h2>
           <p class="project-year">{project.year}</p>
           <p class="tech-stack">Tech used: {project.techUsed.join(', ')}</p>
-          <p class="description">{project.description}</p>
+          <p class="description">{@html project.description}</p>
           
           {#if project.images && project.images.length > 0}
             <div class="project-images">
