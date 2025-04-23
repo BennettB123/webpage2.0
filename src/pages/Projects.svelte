@@ -1,5 +1,4 @@
 <script lang="ts">
-  // Import the projectList data from a JavaScript/TypeScript file
   import { projectList } from "../lib/ProjectsList.svelte";
   import githubLogo from "../assets/githubLogo.svg";
 </script>

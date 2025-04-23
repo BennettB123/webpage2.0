@@ -1,5 +1,4 @@
 <script lang="ts">
-  // About me page
   import profilePic from '../assets/ProfilePic.jpg';
 </script>
 
@@ -7,19 +6,15 @@
   <h1>About Me</h1>
   
   <div class="content">
-    <div class="bio">
-      <div class="bio-content">
-        <div class="profile-image">
-          <img src={profilePic} alt="Me" />
-        </div>
-        <div class="bio-text">
-          <h2>Hello, I'm Bennett Ballentine</h2>
-          <p>
-            I'm a passionate software developer primarily focusing on the backend.
-            This is my personal webpage to showcase my programming journey and the projects I've worked on throughout the years.
-          </p>
-        </div>
-      </div>
+    <div class="profile-image">
+      <img src={profilePic} alt="Me" />
+    </div>
+    <div class="bio-text">
+      <h2>Hello, I'm Bennett Ballentine</h2>
+      <p>
+        I'm a passionate software developer primarily focusing on the backend.
+        This is my personal webpage to showcase my programming journey and the projects I've worked on throughout the years.
+      </p>
     </div>
   </div>
 </main>
@@ -30,6 +25,10 @@
     margin: 0 auto;
     text-align: left;
     font-size: 1.2rem;
+    margin-bottom: 2em;
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
   }
   
   h1 {
@@ -41,16 +40,6 @@
     color: #ff3e00;
     margin-top: 1.5em;
     font-size: 2rem;
-  }
-  
-  .bio {
-    margin-bottom: 2em;
-  }
-  
-  .bio-content {
-    display: flex;
-    align-items: flex-start;
-    gap: 2rem;
   }
   
   .profile-image {

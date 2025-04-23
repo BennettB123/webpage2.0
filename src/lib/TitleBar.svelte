@@ -1,5 +1,4 @@
 <script lang="ts">
-  // TitleBar component to display site name
 </script>
 
 <div class="site-title">
