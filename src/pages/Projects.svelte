@@ -11,7 +11,7 @@
       <p>
         Here's a collection of projects developed in my free time. Each one represents
         different skills and technologies I've learned throughout my development
-        journey.
+        journey. This is not an exhaustive list, but it gives a good overview of my work.
       </p>
       
       <a href="https://github.com/BennettB123" target="_blank" rel="noopener noreferrer" class="github-button">
