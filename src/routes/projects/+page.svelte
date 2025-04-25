@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { projectList } from "../lib/ProjectsList.svelte";
-  import githubLogo from "../assets/githubLogo.svg";
+  import { projectList } from "../../lib/ProjectsList.svelte";
+  import githubLogo from "../../assets/githubLogo.svg";
 </script>
 
 <main>

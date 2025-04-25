@@ -2,17 +2,7 @@
 </script>
 
 <div class="site-title">
-  <a
-    href="/"
-    on:click={(e) => {
-      e.preventDefault();
-      // Update browser history without refreshing
-      window.history.pushState({}, "", "/");
-
-      // Dispatch a custom event to notify App.svelte of navigation
-      window.dispatchEvent(new CustomEvent("routechange"));
-    }}>BennettCodes.com</a
-  >
+  <a href="/about-me">BennettCodes.com</a>
 </div>
 
 <style>

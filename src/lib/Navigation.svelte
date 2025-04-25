@@ -1,50 +1,14 @@
 <script lang="ts">
-  import { onMount } from "svelte";
-
-  let currentPath = window.location.pathname;
-
-  // Custom navigation function that prevents page refresh
-  function navigate(event: MouseEvent, path: string) {
-    event.preventDefault();
-
-    // Only update if we're navigating to a different path
-    if (path !== currentPath) {
-      // Update browser history without refreshing
-      window.history.pushState({}, "", path);
-
-      // Update current path
-      currentPath = path;
-
-      // Dispatch a custom event to notify App.svelte of navigation
-      window.dispatchEvent(new CustomEvent("routechange"));
-    }
-  }
-
-  // Update current path when navigation happens using browser back/forward
-  function updateCurrentPath() {
-    currentPath = window.location.pathname;
-  }
-
-  onMount(() => {
-    // Ensure current path is accurate on component mount
-    currentPath = window.location.pathname;
-  });
+  import { page } from '$app/stores';
 </script>
-
-<svelte:window on:popstate={updateCurrentPath} />
 
 <nav>
   <ul class="nav-links">
-    <li
-      class:active={currentPath === "/" ||
-        currentPath === "" ||
-        currentPath === "/about"}
-    >
-      <a href="/" on:click={(e) => navigate(e, "/")}>About Me</a>
+    <li class:active={$page.url.pathname === '/about-me' || $page.url.pathname === '/'}>
+      <a href="/about-me">About Me</a>
     </li>
-    <li class:active={currentPath === "/projects"}>
-      <a href="/projects" on:click={(e) => navigate(e, "/projects")}>Projects</a
-      >
+    <li class:active={$page.url.pathname === '/projects'}>
+      <a href="/projects">Projects</a>
     </li>
   </ul>
 </nav>

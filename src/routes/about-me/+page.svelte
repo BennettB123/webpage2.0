@@ -1,10 +1,10 @@
 <script lang="ts">
-  import profilePic from '../assets/ProfilePic.jpg';
+  import profilePic from '../../assets/ProfilePic.jpg';
 </script>
 
 <main>
   <h1>About Me</h1>
-  
+
   <div class="content">
     <div class="profile-image">
       <img src={profilePic} alt="Me" />
@@ -30,22 +30,18 @@
     align-items: flex-start;
     gap: 2rem;
   }
-  
   h1 {
     font-size: 2.5em;
     margin-bottom: 1em;
   }
-  
   h2 {
     color: #ff3e00;
     margin-top: 1.5em;
     font-size: 2rem;
   }
-  
   .profile-image {
     flex-shrink: 0;
   }
-  
   .profile-image img {
     width: 200px;
     height: auto;
@@ -53,22 +49,18 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border: 2px solid #ff3e00;
   }
-  
   .bio-text {
     flex-grow: 1;
   }
-  
   p {
     line-height: 1.6;
   }
-  
   @media (max-width: 768px) {
-    .bio-content {
+    .content {
       flex-direction: column;
       align-items: center;
       text-align: center;
     }
-    
     .profile-image {
       margin-bottom: 1.5rem;
     }
