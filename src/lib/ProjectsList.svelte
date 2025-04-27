@@ -82,7 +82,7 @@
         "A bare-bones HTTP/1.0 web framework for Go. " +
         "The framework allows you to setup handlers for GET, POST, PUT, and DELETE requests made to specific URL paths. " +
         "It also provides helpful methods to respond to requests with JSON, HTML, or files. " +
-        'The package is fully documented in Go\'s official package site, <a href="https://pkg.go.dev/github.com/BennettB123/simplehttp" target="_blank">https://pkg.go.dev/github.com/BennettB123/simplehttp</a>.',
+        'The package is fully documented here in Go\'s official package site, <a href="https://pkg.go.dev/github.com/BennettB123/simplehttp" target="_blank">pkg.go.dev</a>.',
       year: 2024,
       images: [],
       githubLink: "https://github.com/BennettB123/simplehttp",
