@@ -51,30 +51,35 @@
   }
 
   .github-button {
+    background-color: #ff3e00;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 8px;
     margin: 1.5rem auto;
-    padding: 0.6rem 1.2rem;
-    background-color: #24292e;
-    color: white;
-    border-radius: 6px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: all 0.2s ease;
-    max-width: 200px;
+    padding: 0.7rem 1.5rem;
+    font-size: 1.1em;
+    box-shadow: 0 2px 8px rgba(255, 62, 0, 0.12);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
   }
 
   .github-button:hover {
-    background-color: #2f363d;
-    transform: translateY(-2px);
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    background: #ff7e3e;
+    color: #fff;
+    box-shadow: 0 1px 2px rgba(255, 62, 0, 0.10) inset, 0 1px 2px rgba(0,0,0,0.10) inset;
+    transform: translateY(2px) scale(0.98);
   }
 
   .github-logo {
-    width: 24px;
-    height: 24px;
+    width: 32px;
+    height: 32px;
     filter: invert(1);
   }
 
