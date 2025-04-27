@@ -63,11 +63,6 @@
     box-sizing: border-box;
   }
 
-  h1 {
-    font-size: 2.5em;
-    margin-bottom: 1em;
-  }
-
   .intro {
     margin: auto;
     font-size: 1.2em;
@@ -121,7 +116,6 @@
     width: 100%;
     box-sizing: border-box;
     min-width: 0;
-    margin-bottom: 2rem;
   }
 
   .project-card:hover {
@@ -201,7 +195,7 @@
   @media (max-width: 768px) {
     .project-list {
       grid-template-columns: 1fr;
-      gap: 0;
+      gap: 2rem;
     }
     .content {
       padding: 0 0.5rem;
@@ -209,9 +203,6 @@
     .project-card {
       padding: 1rem;
       font-size: 0.98em;
-    }
-    h1 {
-      font-size: 2em;
     }
   }
 
@@ -222,9 +213,6 @@
     .project-card {
       padding: 0.7rem;
       font-size: 0.93em;
-    }
-    h1 {
-      font-size: 1.5em;
     }
   }
 </style>
