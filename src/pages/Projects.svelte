@@ -58,6 +58,9 @@
   .content {
     max-width: 1000px;
     margin: 0 auto;
+    width: 100%;
+    padding: 0 1rem;
+    box-sizing: border-box;
   }
 
   h1 {
@@ -103,6 +106,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 2rem;
+    width: 100%;
   }
 
   .project-card {
@@ -114,6 +118,10 @@
       transform 0.3s ease,
       box-shadow 0.3s ease;
     border: 1px solid #333;
+    width: 100%;
+    box-sizing: border-box;
+    min-width: 0;
+    margin-bottom: 2rem;
   }
 
   .project-card:hover {
@@ -150,6 +158,8 @@
   
   .project-images img {
     width: 100%;
+    max-width: 100%;
+    height: auto;
     border-radius: 4px;
     object-fit: contain;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
@@ -191,6 +201,30 @@
   @media (max-width: 768px) {
     .project-list {
       grid-template-columns: 1fr;
+      gap: 0;
+    }
+    .content {
+      padding: 0 0.5rem;
+    }
+    .project-card {
+      padding: 1rem;
+      font-size: 0.98em;
+    }
+    h1 {
+      font-size: 2em;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .content {
+      padding: 0 0.2rem;
+    }
+    .project-card {
+      padding: 0.7rem;
+      font-size: 0.93em;
+    }
+    h1 {
+      font-size: 1.5em;
     }
   }
 </style>
