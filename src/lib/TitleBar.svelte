@@ -17,12 +17,12 @@
 
 <style>
   .site-title {
-    margin-bottom: 0.75rem;
+    margin: 0.5rem;
     text-align: center;
   }
 
   .site-title a {
-    font-size: 1.75rem;
+    font-size: 2rem;
     font-weight: bold;
     color: #ff3e00;
     text-decoration: none;

@@ -54,7 +54,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: .5rem;
     background-color: #313131;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
     position: sticky;
@@ -65,7 +65,7 @@
   .nav-links {
     display: flex;
     list-style: none;
-    gap: 2rem;
+    gap: 3rem;
     margin: 0;
     padding: 0;
   }
@@ -75,6 +75,7 @@
     color: #e0e0e0;
     font-weight: 500;
     transition: color 0.3s ease;
+    font-size: 1.25rem;
   }
 
   .nav-links a:hover {

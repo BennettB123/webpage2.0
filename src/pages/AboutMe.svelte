@@ -28,7 +28,7 @@
     font-size: 1.2rem;
     margin-bottom: 2em;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 1.5rem;
   }
 
