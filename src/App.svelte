@@ -4,6 +4,7 @@
   import Navigation from "./lib/Navigation.svelte";
   import TitleBar from "./lib/TitleBar.svelte";
   import AboutMe from "./pages/AboutMe.svelte";
+  import Blog from "./pages/Blog.svelte";
   import Projects from "./pages/Projects.svelte";
 
   onMount(() => {
@@ -37,6 +38,8 @@
 
     if (path === "/projects") {
       currentPage = "projects";
+    } else if (path === "/blog" || path.startsWith("/blog/")) {
+      currentPage = "blog";
     } else {
       currentPage = "about";
     }
@@ -51,6 +54,8 @@
     <div in:fly={flyIn} out:fly={flyOut}>
       {#if currentPage === "about"}
         <AboutMe />
+      {:else if currentPage === "blog"}
+        <Blog />
       {:else if currentPage === "projects"}
         <Projects />
       {/if}

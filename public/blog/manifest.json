@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "blog-tutorial",
+    "title": "How to create blogs",
+    "date": "2026-05-05",
+    "excerpt": "This entry explains how to create blogs.",
+    "file": "/blog/blog-tutorial/post.md"
+  },
+  {
+    "slug": "hello-blog",
+    "title": "Hello Blog",
+    "date": "2026-05-04",
+    "excerpt": "A tiny example post showing basic markdown.",
+    "file": "/blog/hello-blog/post.md"
+  }
+]
