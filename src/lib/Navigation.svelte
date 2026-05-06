@@ -46,6 +46,9 @@
       <a href="/projects" on:click={(e) => navigate(e, "/projects")}>Projects</a
       >
     </li>
+    <li class:active={currentPath === "/blog" || currentPath.startsWith("/blog/")}>
+      <a href="/blog" on:click={(e) => navigate(e, "/blog")}>Blog</a>
+    </li>
   </ul>
 </nav>
 
