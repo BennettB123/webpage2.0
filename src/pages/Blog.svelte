@@ -26,7 +26,7 @@
     errorMessage = "";
 
     try {
-      const manifestResponse = await fetch("/blog/manifest.json", { cache: "no-cache" });
+      const manifestResponse = await fetch("/blog-content/manifest.json", { cache: "no-cache" });
 
       if (!manifestResponse.ok) {
         throw new Error("Could not load the blog manifest.");
